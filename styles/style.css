@@ -12,7 +12,8 @@ body {
 }
 
 .frame {
-    border: 10px solid coral;
+    border: 10px solid wheat;
+    border-radius: 3%;
 }
 .container {
   background-color: white;
@@ -23,10 +24,34 @@ body {
   justify-content: space-between;
 }
 
-
-
 .square {
   /* flex-grow: 1; */
   width: calc(600px / 10);
   height: calc(600px / 10);
 }
+
+.buttons {
+display: flex;
+justify-content: space-between;
+}
+
+button {
+    background-color: wheat;
+    font-size: larger;
+    font-weight: bolder;
+    color: darkslategray;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15%;
+    border: 2px solid yellow;
+}
+
+button:hover {
+    transform: scale(1.1);
+  }
+
+  button:active {
+    transform: scale(1.1);
+    background-color: whitesmoke;
+    color: darkslategray;
+  }
