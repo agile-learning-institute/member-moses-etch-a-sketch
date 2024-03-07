@@ -53,3 +53,15 @@ function getLength() {
     alert(`You entered ${length}. Number should be between "1" and "100"`);
   }
 }
+
+// Clear Button
+
+clearButton.addEventListener("click", clearPad);
+
+function clearPad() {
+  const squares = document.querySelectorAll(".square");
+
+  squares.forEach((square) => {
+    square.style.backgroundColor = "white";
+  });
+}
