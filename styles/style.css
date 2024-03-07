@@ -1,5 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  padding-top: 50px;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: center;
+}
+
+.frame {
+    border: 10px solid coral;
+}
+.container {
+  background-color: white;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.square {
+  /* flex-grow: 1; */
+  width: calc(600px / 10);
+  height: calc(600px / 10);
 }
