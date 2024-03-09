@@ -11,6 +11,13 @@ body {
   justify-content: center;
 }
 
+h1 {
+  color: antiquewhite;
+  text-align: center;
+  margin: 20px;
+  font-size: 80px;
+}
+
 .frame {
   border: 10px solid wheat;
   border-radius: 3%;
