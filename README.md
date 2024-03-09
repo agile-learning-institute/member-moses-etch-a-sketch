@@ -11,4 +11,4 @@ This is a browser version of something between a sketchpad and an Etch-A-Sketch.
 Enjoy!!!
 
 ## Try it out live
-[Etch-a-Sketch](https://wodpachua.github.io/Etch-a-Sketch/)
+[Etch-a-Sketch](https://agile-learning-institute.github.io/member-moses-etch-a-sketch/)
