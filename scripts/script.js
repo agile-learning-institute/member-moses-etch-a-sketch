@@ -68,7 +68,7 @@ function clearPad() {
   const squares = document.querySelectorAll(".square");
 
   squares.forEach((square) => {
-    square.style.backgroundColor = "white";
+    square.style.backgroundColor = "rgb(240, 237, 237)";
   });
 }
 

@@ -23,7 +23,7 @@ h1 {
   border-radius: 3%;
 }
 .container {
-  background-color: white;
+  background-color: rgb(240, 237, 237);
   height: 600px;
   width: 600px;
   display: flex;
@@ -86,4 +86,9 @@ img:active {
 
 .color-div {
   display: flex;
+}
+
+.square {
+  border: 0.1px solid rgb(226, 225, 225);
+  /* background-color: rgb(240, 237, 237); */
 }
