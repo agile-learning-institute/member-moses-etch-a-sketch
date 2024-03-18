@@ -10,5 +10,8 @@ This is a browser version of something between a sketchpad and an Etch-A-Sketch.
 - You can clear your pad with the "Clear" button.
 Enjoy!!!
 
+# NEW!!!
+- You can now change the color of your sketch from the default rainbow color to any color of choice using the color picker, or revert back to the default with just a click. Cool, right!!
+
 ## Try it out live
 [Etch-a-Sketch](https://agile-learning-institute.github.io/member-moses-etch-a-sketch/)
