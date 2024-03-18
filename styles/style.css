@@ -36,7 +36,7 @@ h1 {
   justify-content: space-between;
 }
 
-button {
+button, .color-div {
   background-color: wheat;
   font-size: larger;
   font-weight: bolder;
@@ -55,4 +55,35 @@ button:active {
   transform: scale(1.1);
   background-color: whitesmoke;
   color: darkslategray;
+}
+
+.pick-color {
+  border: 3px solid red;
+}
+
+label {
+  font:
+    25px 'Fira Sans',
+    sans-serif;
+    font-weight: bolder;
+}
+
+img {
+  width: 30px;
+  margin: 0 15px 0 15px;
+  position: -3px;
+  border: 3px solid darkslategray;
+  border-radius: 50%;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+img:active {
+  transform: scale(0.9);
+}
+
+.color-div {
+  display: flex;
 }

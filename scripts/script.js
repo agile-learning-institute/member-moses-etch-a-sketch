@@ -1,6 +1,8 @@
 const container = document.querySelector(".container");
 const lengthButton = document.querySelector(".grid-length");
 const clearButton = document.querySelector(".clear");
+const colorPicker = document.querySelector("#pick-color");
+const rainBowColor = document.querySelector(".rainbow-color");
 
 let padActive = false;
 
@@ -27,7 +29,11 @@ function activatePad(gridLength = 10) {
 }
 
 function fillColor(event) {
+  if (setColor === "") {
   event.target.style.backgroundColor = `rgb(${randomNum()},${randomNum()},${randomNum()})`;
+  } else {
+    event.target.style.backgroundColor = setColor;
+  }
 }
 
 function randomNum() {
@@ -65,3 +71,19 @@ function clearPad() {
     square.style.backgroundColor = "white";
   });
 }
+
+
+// Color Picker
+// let colorSet = false;
+let setColor = "";
+
+colorPicker.addEventListener("input", pickColor);
+
+function pickColor(e) {
+  setColor = e.target.value;
+  // colorSet = true;
+}
+
+rainBowColor.addEventListener("click", function(){
+  setColor = "";
+})
