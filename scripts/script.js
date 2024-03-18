@@ -3,6 +3,8 @@ const lengthButton = document.querySelector(".grid-length");
 const clearButton = document.querySelector(".clear");
 const colorPicker = document.querySelector("#pick-color");
 const rainBowColor = document.querySelector(".rainbow-color");
+const slider = document.querySelector("#grid-num");
+const gridNum = document.querySelector("output");
 
 let padActive = false;
 
@@ -26,6 +28,8 @@ function activatePad(gridLength = 10) {
 
     newDiv.addEventListener("mouseover", fillColor);
   }
+  gridNum.textContent = gridLength + ' * ' + gridLength;
+  slider.value = gridLength;
 }
 
 function fillColor(event) {
@@ -86,4 +90,14 @@ function pickColor(e) {
 
 rainBowColor.addEventListener("click", function(){
   setColor = "";
+})
+
+
+// Changing Grid length with Slider
+
+slider.addEventListener("input", function(e){
+  gridLength = e.target.value;
+  gridNum.textContent = gridLength + ' * ' + gridLength;
+  container.replaceChildren();
+  activatePad(gridLength);
 })

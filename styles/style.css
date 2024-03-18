@@ -92,3 +92,19 @@ img:active {
   border: 0.1px solid rgb(226, 225, 225);
   /* background-color: rgb(240, 237, 237); */
 }
+
+.slider {
+display: flex;
+justify-content: space-around;
+}
+
+input[type="range"] {
+  border: 1px solid yellow;
+  width: 500px;
+}
+
+output {
+  color: wheat;
+  font-weight: bolder;
+  font-size: 25px;
+}
