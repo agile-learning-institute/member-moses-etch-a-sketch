@@ -12,6 +12,7 @@ Enjoy!!!
 
 # NEW!!!
 - You can now change the color of your sketch from the default rainbow color to any color of choice using the color picker, or revert back to the default with just a click. Cool, right!!
+- Change/Adjust your pad grid length with a slider... see it change live to your desire.
 
 ## Try it out live
 [Etch-a-Sketch](https://agile-learning-institute.github.io/member-moses-etch-a-sketch/)
